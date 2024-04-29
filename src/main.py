@@ -1,3 +1,6 @@
+#imports here
+import_dir = '../imports/'
+
 class AutorLibro:
     def _init_(self, nombre, nacionalidad, fecha_nacimiento, genero):
         self.nombre = nombre
@@ -18,3 +21,9 @@ class AutorLibro:
     def escribir_libro(self, titulo):
         self.agregar_libro(titulo)
         return f"{self.nombre} ha escrito un nuevo libro: {titulo}"
+
+def main():
+    ...
+
+if __name__ == '__main__':
+    main()
